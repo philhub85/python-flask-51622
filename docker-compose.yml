@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  pythonflask51622:
+    image: pythonflask51622
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
